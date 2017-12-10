@@ -1,0 +1,27 @@
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+.light-gallery-inner a{
+    display: inline-block;
+    width: 24%;
+}
+
+#battery-image ul{
+    position: relative;
+    max-width: 80%;
+}
+
+#battery-image li + li{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#battery-image img{
+    max-width: 60px;
+}
+
+
