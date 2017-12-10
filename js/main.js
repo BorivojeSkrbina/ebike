@@ -42,20 +42,16 @@ $(document).ready(function () {
 
         }
 
+//ABSLOUTE TOP I LEFT ZA IMG
         var r;
-        
         var top = 21;
         var left = 15;
-        for (r = 1; r <= parallel; r++) {
+        for (r = 1; r < parallel; r++) {
             $('.battery-row ul li').eq(r).css({"top": top,"left": left});
             top += 21;
             left += 15;
-            console.log(r);
-
         }
 
-
-//        alert('.battery-row ul li').html();
 
 
     });//BUTTON CLICK END
