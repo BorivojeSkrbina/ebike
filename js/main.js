@@ -18,7 +18,7 @@ $(document).ready(function () {
         $('h1.capacity').text('Capacity: ' + capacity + "Ah");
         $('h1.power').text('Power: ' + power + "Wh");
         $('h1.maxcurrent').text('Max current: ' + cellcurrent * parallel + "A");
-
+console.time("factorial test");
 
 //PRIKAZ BATERIJE
         var i;
@@ -52,7 +52,7 @@ $(document).ready(function () {
             left += 15;
         }
 
-
+console.timeEnd("factorial test");
 
     });//BUTTON CLICK END
 
