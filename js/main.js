@@ -1,7 +1,6 @@
 $(document).ready(function () {
 
-    $('.configure').click(function (e) {
-        e.preventDefault();
+    $('.configure').click(function () {
         var series = parseInt($('input[name="series"]').val());
         var parallel = parseFloat($('input[name="parallel"]').val());
         var cellcapacity = parseFloat($('input[name="cellcapacity"]').val());
